@@ -10,6 +10,8 @@
 
 @implementation SWVValidationStrategy
 
+#pragma mark - Factory Methods
+
 #pragma mark - Constructors and Initializers
 
 - (SWVValidationStrategy *)initWithBlock:(SWVValidationBlock)block
