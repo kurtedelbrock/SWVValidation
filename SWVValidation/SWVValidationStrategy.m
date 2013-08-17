@@ -8,6 +8,8 @@
 
 #import "SWVValidationStrategy.h"
 
+#import "SWVNotNilValidationStrategy.h"
+
 @implementation SWVValidationStrategy
 
 #pragma mark - Factory Methods
@@ -22,6 +24,13 @@
         _block = block;
     }
     return self;
+}
+
+#pragma mark - Factories
+
++ (SWVValidationStrategy *)validateNotNil
+{
+    return [[SWVNotNilValidationStrategy alloc] init];
 }
 
 #pragma mark - Validators

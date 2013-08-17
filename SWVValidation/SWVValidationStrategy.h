@@ -25,6 +25,11 @@ typedef BOOL(^SWVValidationBlock)(id obj);
 - (BOOL)validate:(id)obj;
 
 /**
+ * Factory Methods
+ */
++ (SWVValidationStrategy *)validateNotNil;
+
+/**
  * Properties
  */
 

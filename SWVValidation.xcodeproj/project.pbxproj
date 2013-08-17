@@ -24,6 +24,7 @@
 		E0F74C4F17BF3D7200536B99 /* SWVConcreteValidationStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C4E17BF3D7200536B99 /* SWVConcreteValidationStrategyTests.m */; };
 		E0F74C5217BF3E0A00536B99 /* SWVNotNilValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5117BF3E0A00536B99 /* SWVNotNilValidationStrategy.m */; };
 		E0F74C5417BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5317BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m */; };
+		E0F74C5617BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5517BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E0F74C5017BF3E0A00536B99 /* SWVNotNilValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWVNotNilValidationStrategy.h; sourceTree = "<group>"; };
 		E0F74C5117BF3E0A00536B99 /* SWVNotNilValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWVNotNilValidationStrategy.m; sourceTree = "<group>"; };
 		E0F74C5317BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWVNotNilValidationStrategyTests.m; sourceTree = "<group>"; };
+		E0F74C5517BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWVValidationStrategyFactoryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		E0F74C3617BF34A100536B99 /* SWVValidationTests */ = {
 			isa = PBXGroup;
 			children = (
+				E0F74C5517BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m */,
 				E0F74C5317BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m */,
 				E0F74C4E17BF3D7200536B99 /* SWVConcreteValidationStrategyTests.m */,
 				E0F74C3C17BF34A100536B99 /* SWVValidationTests.m */,
@@ -292,6 +295,7 @@
 				E0F74C3D17BF34A100536B99 /* SWVValidationTests.m in Sources */,
 				E0F74C4F17BF3D7200536B99 /* SWVConcreteValidationStrategyTests.m in Sources */,
 				E0F74C5417BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m in Sources */,
+				E0F74C5617BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
