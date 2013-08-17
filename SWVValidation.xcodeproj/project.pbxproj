@@ -22,9 +22,9 @@
 		E0F74C4F17BF3D7200536B99 /* SWVConcreteValidationStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C4E17BF3D7200536B99 /* SWVConcreteValidationStrategyTests.m */; };
 		E0F74C5417BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5317BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m */; };
 		E0F74C5617BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5517BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m */; };
-		E0F74C5D17BF416100536B99 /* SWVConcreteValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5817BF416100536B99 /* SWVConcreteValidationStrategy.m */; };
-		E0F74C5E17BF416100536B99 /* SWVNotNilValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5A17BF416100536B99 /* SWVNotNilValidationStrategy.m */; };
-		E0F74C5F17BF416100536B99 /* SWVValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C5C17BF416100536B99 /* SWVValidationStrategy.m */; };
+		E0F74C6617BF46AB00536B99 /* SWVConcreteValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C6117BF46AB00536B99 /* SWVConcreteValidationStrategy.m */; };
+		E0F74C6717BF46AB00536B99 /* SWVNotNilValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C6317BF46AB00536B99 /* SWVNotNilValidationStrategy.m */; };
+		E0F74C6817BF46AB00536B99 /* SWVValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C6517BF46AB00536B99 /* SWVValidationStrategy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +57,12 @@
 		E0F74C4E17BF3D7200536B99 /* SWVConcreteValidationStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWVConcreteValidationStrategyTests.m; sourceTree = "<group>"; };
 		E0F74C5317BF3E5900536B99 /* SWVNotNilValidationStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWVNotNilValidationStrategyTests.m; sourceTree = "<group>"; };
 		E0F74C5517BF3FB200536B99 /* SWVValidationStrategyFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWVValidationStrategyFactoryTests.m; sourceTree = "<group>"; };
-		E0F74C5717BF416100536B99 /* SWVConcreteValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWVConcreteValidationStrategy.h; path = Classes/SWVConcreteValidationStrategy.h; sourceTree = "<group>"; };
-		E0F74C5817BF416100536B99 /* SWVConcreteValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWVConcreteValidationStrategy.m; path = Classes/SWVConcreteValidationStrategy.m; sourceTree = "<group>"; };
-		E0F74C5917BF416100536B99 /* SWVNotNilValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWVNotNilValidationStrategy.h; path = Classes/SWVNotNilValidationStrategy.h; sourceTree = "<group>"; };
-		E0F74C5A17BF416100536B99 /* SWVNotNilValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWVNotNilValidationStrategy.m; path = Classes/SWVNotNilValidationStrategy.m; sourceTree = "<group>"; };
-		E0F74C5B17BF416100536B99 /* SWVValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWVValidationStrategy.h; path = Classes/SWVValidationStrategy.h; sourceTree = "<group>"; };
-		E0F74C5C17BF416100536B99 /* SWVValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWVValidationStrategy.m; path = Classes/SWVValidationStrategy.m; sourceTree = "<group>"; };
+		E0F74C6017BF46AB00536B99 /* SWVConcreteValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWVConcreteValidationStrategy.h; path = Classes/SWVConcreteValidationStrategy.h; sourceTree = SOURCE_ROOT; };
+		E0F74C6117BF46AB00536B99 /* SWVConcreteValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWVConcreteValidationStrategy.m; path = Classes/SWVConcreteValidationStrategy.m; sourceTree = SOURCE_ROOT; };
+		E0F74C6217BF46AB00536B99 /* SWVNotNilValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWVNotNilValidationStrategy.h; path = Classes/SWVNotNilValidationStrategy.h; sourceTree = SOURCE_ROOT; };
+		E0F74C6317BF46AB00536B99 /* SWVNotNilValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWVNotNilValidationStrategy.m; path = Classes/SWVNotNilValidationStrategy.m; sourceTree = SOURCE_ROOT; };
+		E0F74C6417BF46AB00536B99 /* SWVValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWVValidationStrategy.h; path = Classes/SWVValidationStrategy.h; sourceTree = SOURCE_ROOT; };
+		E0F74C6517BF46AB00536B99 /* SWVValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWVValidationStrategy.m; path = Classes/SWVValidationStrategy.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +167,8 @@
 		E0F74C4617BF35E500536B99 /* Abstract Class */ = {
 			isa = PBXGroup;
 			children = (
-				E0F74C5B17BF416100536B99 /* SWVValidationStrategy.h */,
-				E0F74C5C17BF416100536B99 /* SWVValidationStrategy.m */,
+				E0F74C6417BF46AB00536B99 /* SWVValidationStrategy.h */,
+				E0F74C6517BF46AB00536B99 /* SWVValidationStrategy.m */,
 			);
 			name = "Abstract Class";
 			sourceTree = "<group>";
@@ -176,10 +176,10 @@
 		E0F74C4A17BF3CBE00536B99 /* Concrete Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E0F74C5717BF416100536B99 /* SWVConcreteValidationStrategy.h */,
-				E0F74C5817BF416100536B99 /* SWVConcreteValidationStrategy.m */,
-				E0F74C5917BF416100536B99 /* SWVNotNilValidationStrategy.h */,
-				E0F74C5A17BF416100536B99 /* SWVNotNilValidationStrategy.m */,
+				E0F74C6017BF46AB00536B99 /* SWVConcreteValidationStrategy.h */,
+				E0F74C6117BF46AB00536B99 /* SWVConcreteValidationStrategy.m */,
+				E0F74C6217BF46AB00536B99 /* SWVNotNilValidationStrategy.h */,
+				E0F74C6317BF46AB00536B99 /* SWVNotNilValidationStrategy.m */,
 			);
 			name = "Concrete Classes";
 			sourceTree = "<group>";
@@ -280,11 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F74C6817BF46AB00536B99 /* SWVValidationStrategy.m in Sources */,
 				E0F74C2417BF34A100536B99 /* main.m in Sources */,
-				E0F74C5E17BF416100536B99 /* SWVNotNilValidationStrategy.m in Sources */,
 				E0F74C2817BF34A100536B99 /* SWVAppDelegate.m in Sources */,
-				E0F74C5F17BF416100536B99 /* SWVValidationStrategy.m in Sources */,
-				E0F74C5D17BF416100536B99 /* SWVConcreteValidationStrategy.m in Sources */,
+				E0F74C6617BF46AB00536B99 /* SWVConcreteValidationStrategy.m in Sources */,
+				E0F74C6717BF46AB00536B99 /* SWVNotNilValidationStrategy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
