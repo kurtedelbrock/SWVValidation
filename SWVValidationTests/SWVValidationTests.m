@@ -45,4 +45,14 @@
     XCTAssertTrue(valid == YES);
 }
 
+- (void)testValidationFails
+{
+    SWVValidationBlock testBlock = ^BOOL(id obj){
+        return NO;
+    };
+    SWVValidationStrategy *validationStrategy = [[SWVValidationStrategy alloc] initWithBlock:testBlock];
+    
+    XCTAssertTrue([validationStrategy validate:@""] == NO);
+}
+
 @end
