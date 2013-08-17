@@ -40,6 +40,10 @@
     SWVValidationStrategy *validationStrategy = [[SWVValidationStrategy alloc] initWithBlock:testBlock];
     
     XCTAssertNotNil(validationStrategy.block);
+    
+    SWVValidationBlock runBlock = validationStrategy.block;
+    
+    XCTAssertTrue(runBlock([NSNull null]) == YES);
 }
 
 @end
