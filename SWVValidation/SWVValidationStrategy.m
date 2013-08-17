@@ -22,4 +22,17 @@
     return self;
 }
 
+#pragma mark - Validators
+
+- (BOOL)validate:(id)obj
+{
+    if (_block != nil)
+        return _block(obj);
+    else
+    {
+        NSLog(@"There was no block for validation to run against, so validate:(id)obj defaults to YES");
+        return YES;
+    }
+}
+
 @end

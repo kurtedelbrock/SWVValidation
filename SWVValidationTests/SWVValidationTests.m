@@ -27,11 +27,6 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-
-}
-
 - (void)testConstructorCanSetBlock
 {
     SWVValidationBlock testBlock = ^BOOL(id obj){
@@ -40,10 +35,14 @@
     SWVValidationStrategy *validationStrategy = [[SWVValidationStrategy alloc] initWithBlock:testBlock];
     
     XCTAssertNotNil(validationStrategy.block);
+}
+
+- (void)testValidationDefaultResponse
+{
+    SWVValidationStrategy *validationStrategy = [[SWVValidationStrategy alloc] initWithBlock:nil];
+    BOOL valid = [validationStrategy validate:@"testme"];
     
-    SWVValidationBlock runBlock = validationStrategy.block;
-    
-    XCTAssertTrue(runBlock([NSNull null]) == YES);
+    XCTAssertTrue(valid == YES);
 }
 
 @end

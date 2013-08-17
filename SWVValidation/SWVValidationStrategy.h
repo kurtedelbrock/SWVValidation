@@ -22,6 +22,8 @@ typedef BOOL(^SWVValidationBlock)(id obj);
 
 - (SWVValidationStrategy *)initWithBlock:(SWVValidationBlock)block;
 
+- (BOOL)validate:(id)obj;
+
 /**
  * Properties
  */
