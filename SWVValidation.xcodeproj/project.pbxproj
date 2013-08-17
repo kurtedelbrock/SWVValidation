@@ -19,6 +19,7 @@
 		E0F74C3317BF34A100536B99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F74C1B17BF34A100536B99 /* UIKit.framework */; };
 		E0F74C3B17BF34A100536B99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0F74C3917BF34A100536B99 /* InfoPlist.strings */; };
 		E0F74C3D17BF34A100536B99 /* SWVValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C3C17BF34A100536B99 /* SWVValidationTests.m */; };
+		E0F74C4917BF360000536B99 /* SWVValidationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F74C4817BF360000536B99 /* SWVValidationStrategy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		E0F74C3817BF34A100536B99 /* SWVValidationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWVValidationTests-Info.plist"; sourceTree = "<group>"; };
 		E0F74C3A17BF34A100536B99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0F74C3C17BF34A100536B99 /* SWVValidationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWVValidationTests.m; sourceTree = "<group>"; };
+		E0F74C4717BF360000536B99 /* SWVValidationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWVValidationStrategy.h; sourceTree = "<group>"; };
+		E0F74C4817BF360000536B99 /* SWVValidationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWVValidationStrategy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		E0F74C1D17BF34A100536B99 /* SWVValidation */ = {
 			isa = PBXGroup;
 			children = (
+				E0F74C4617BF35E500536B99 /* Abstract Class */,
 				E0F74C2617BF34A100536B99 /* SWVAppDelegate.h */,
 				E0F74C2717BF34A100536B99 /* SWVAppDelegate.m */,
 				E0F74C2917BF34A100536B99 /* Images.xcassets */,
@@ -142,6 +146,15 @@
 				E0F74C3917BF34A100536B99 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0F74C4617BF35E500536B99 /* Abstract Class */ = {
+			isa = PBXGroup;
+			children = (
+				E0F74C4717BF360000536B99 /* SWVValidationStrategy.h */,
+				E0F74C4817BF360000536B99 /* SWVValidationStrategy.m */,
+			);
+			name = "Abstract Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F74C2417BF34A100536B99 /* main.m in Sources */,
+				E0F74C4917BF360000536B99 /* SWVValidationStrategy.m in Sources */,
 				E0F74C2817BF34A100536B99 /* SWVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +452,7 @@
 				E0F74C4217BF34A100536B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0F74C4317BF34A100536B99 /* Build configuration list for PBXNativeTarget "SWVValidationTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +461,7 @@
 				E0F74C4517BF34A100536B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

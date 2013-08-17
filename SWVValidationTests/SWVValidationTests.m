@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SWVValidationStrategy.h"
 
 @interface SWVValidationTests : XCTestCase
 
@@ -29,6 +30,16 @@
 - (void)testExample
 {
 
+}
+
+- (void)testConstructorCanSetBlock
+{
+    SWVValidationBlock testBlock = ^BOOL(id obj){
+        return YES;
+    };
+    SWVValidationStrategy *validationStrategy = [[SWVValidationStrategy alloc] initWithBlock:testBlock];
+    
+    XCTAssertNotNil(validationStrategy.block);
 }
 
 @end
